@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #FE4E30;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    align-items: center;
+    box-shadow: 0px 0px 5px;
+    z-index: 1;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.left ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.left ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.right a{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #F7F8FA;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out;
+}
+
+.right a:hover {
+    transform: scale(1.2);
+}
+
+ /* project  */              
+
+ .container {
+
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    margin: 0;
+    border: 1px #F7F8FA solid;
+}
+
+.add-project {
+    width: 500px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    border-radius: 5px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 5px;
+}
+
+textarea:hover {
+    box-shadow: 0px 0px 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+.awal-akhir {
+    display: flex;
+    
+
+}
+
+#startDate {
+    padding: 10px 67px;
+}
+
+#endDate {
+    padding: 10px 54px;
+}
+
+label {
+    font-weight: 900;
+
+}
+
+
+form input,textarea, form button {
+    padding: 10px;
+    margin: 25px 0;
+    font-weight: 900;
+    border: 1px #000000 solid;
+    border-radius: 10px;
+
+}
+
+fieldset {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technologi {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#image {
+    border: 1px solid;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: black;
+    color: #ffffff;
+    width: 70px;
+    float: right;
+    border-radius: 15px;
+    font-weight: 800;
+    border: 1px solid;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
